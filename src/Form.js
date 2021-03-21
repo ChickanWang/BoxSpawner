@@ -4,7 +4,7 @@ import './App.css'
 
 function Form() {
     const [dimensions, setDimensions] = useState({width: 100, height: 100});
-    const [color, setColor] = useState({rgb: {r: 69, g: 255, b: 255}});
+    const [color, setColor] = useState({rgb: {r: 0, g: 0, b: 0}});
     const [box, setBox] = useState(false);
 
     var rgb = "rgb(" + color.rgb.r + ", " + color.rgb.g + ", " + color.rgb.b + ")"
